@@ -15,7 +15,7 @@ class Sicaklik {
         print("Sıcaklık degerini giriniz:")
         val derece = readln()!!.toIntOrNull()
         when(derece){
-            in 1..4 -> println("Hava $derece derece Kayak yapabilirsiniz.")
+            in 1..4 -> println("Hava $derece derece Kayak yapabilirsiniz.") // when de in 1..5 yapısı ile aralıklı deger yapısını kullanabiliriz.
             in 5..14 -> println("Hava $derece derece Tiyatro izlemeye gidebilirsiniz.")
             in 15..24 -> println("Hava $derece derece Mangal'a gidebilirsiniz.")
             in 25..55 -> println("Hava $derece derece Yüzmeye gidebilirsiniz.")
